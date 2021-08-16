@@ -11,6 +11,7 @@ document.addEventListener("scroll", scrollBlurNav);
 
 
 
+
 // window.onload = function mobile(){
 //     if( isMobile.any() ) {
 //         document.getElementById('navBlur').style.backgroundColor = "black";
