@@ -10,6 +10,16 @@ function scrollBlurNav(){
 document.addEventListener("scroll", scrollBlurNav);
 
 
+const ocultarHambNav =document.getElementById("noShow");
+
+function noShowHambNav(){
+    if (screenX && screenY < 900){
+        ocultarHambNav.classList.remove("nav-container-NoShow")
+        console.log("si funciona")
+    }
+}
+
+
 
 
 // window.onload = function mobile(){

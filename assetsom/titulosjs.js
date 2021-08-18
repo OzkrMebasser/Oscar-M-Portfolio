@@ -21,11 +21,11 @@ const typed = new Typed('.typed', {
 }); 
 
 
-// $(document).ready(function() {
-// 	$('.menu').click(function() {
-// 	  $('ul').toggleClass('active');
-// 	});
-//   });
+$(document).ready(function() {
+	$('.menuM').click(function() {
+	  $('ul').toggleClass('active');
+	});
+  });
   
 // Slider
 

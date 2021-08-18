@@ -194,7 +194,7 @@ h4{
 	margin-bottom: -50px;
 	background: #c49b66;
 	cursor: pointer;
-	right: 30px;
+	right: 25px;
 	color: white;
 	border-radius: 50%;
 	height: 85px;
@@ -301,6 +301,7 @@ h4{
   .icon:hover .unit {
 	transition: all 0.6s;
   }
+  
   .icon:hover .spread:nth-child(1) {
 	transition-delay: 0.02s;
 	transform: rotate(-85deg);
@@ -364,20 +365,23 @@ h4{
 	    .unit{
 		position: absolute;
 		background: black;
-		font-size: 30%;
+		font-size: 28%;
 		text-decoration: none;
-		width: 33px;
-		height: 33px;
+		width: 35px;
+		height: 35px;
 		line-height: 33px;
 		color: #c49b66;
 		border-radius: 50%;
 		transition: 0.6s;
 		font-weight: bold;
 		z-index: -99799;
+		display: block;
 	  }
 
 	} 
   
+	
+
 /* ----------------------------------------------------------------
      [ End Navbar ]
 -----------------------------------------------------------------*/
